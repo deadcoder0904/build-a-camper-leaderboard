@@ -1,6 +1,7 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var {Route, Router, IndexRoute, hashHistory} = require('react-router');
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Route, Router, IndexRoute, hashHistory } from 'react-router'
+
 
 // Load foundation
 $(document).foundation();
@@ -8,7 +9,9 @@ $(document).foundation();
 // App css
 require('style!css!sass!applicationStyles')
 
+import Root from "./components/index"
+
 ReactDOM.render(
-  <h1>Boilerplate 3 Project</h1>,
+  <Root />,
   document.getElementById('app')
 );
