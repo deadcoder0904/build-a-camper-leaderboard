@@ -14,7 +14,7 @@
     "axios": "^0.15.2",
     "express": "^4.13.4",
     "react": "latest",
-    "react-addons-test-utils": "^15.4.0",
+    "react-addons-test-utils": "^15.4.1",
     "react-dom": "^15.4.0",
     "react-router": "^3.0.0"
   },
