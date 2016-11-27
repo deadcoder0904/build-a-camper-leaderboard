@@ -11,7 +11,7 @@
   "author": "Andrew Mead",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.15.2",
+    "axios": "^0.15.3",
     "express": "^4.13.4",
     "react": "latest",
     "react-addons-test-utils": "^15.4.0",
